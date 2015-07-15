@@ -1,0 +1,19 @@
+{#
+ MORSE Sphinx template
+#}
+{% extends "default/layout.html" %}
+
+{% block extrahead %}
+    <script type="text/javascript">
+        $(document).ready(function() {
+             
+            //Make levels details togglable
+            $(".levels dd").hide();
+
+            $(".levels dt tt").click(function () {
+                $(this).parent().parent().find('dd').toggle("fast");
+            });
+        });
+    </script>
+    
+{% endblock %}
