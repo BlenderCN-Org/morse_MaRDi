@@ -1,9 +1,0 @@
-#! /bin/sh
-
-if test $# -lt 1
-then
- echo "morseexec needs a MORSE script to execute as parameter"
- exit 0
-fi
-
-/home/gmilliez/devel/bin/morse run $1

@@ -1,1 +1,0 @@
-/usr/bin/gcc  -fPIC    -shared -Wl,-soname,zbufferto3d.so -o zbufferto3d.so CMakeFiles/zbufferto3d.dir/zbufferto3d.c.o /home/gmilliez/devel/lib/libpython3.3m.so -Wl,-rpath,/home/gmilliez/devel/lib: 

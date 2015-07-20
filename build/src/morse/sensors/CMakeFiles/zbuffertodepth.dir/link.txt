@@ -1,1 +1,0 @@
-/usr/bin/gcc  -fPIC    -shared -Wl,-soname,zbuffertodepth.so -o zbuffertodepth.so CMakeFiles/zbuffertodepth.dir/zbuffertodepth.c.o /home/gmilliez/devel/lib/libpython3.3m.so -Wl,-rpath,/home/gmilliez/devel/lib: 
